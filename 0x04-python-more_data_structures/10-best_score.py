@@ -3,4 +3,7 @@ def best_score(a_dictionary):
     if a_dictionary is None:
         return None
     else:
-        return max(a_dictionary.keys())
+        max_score = max(a_dictionary.values(), default=None)
+        for i, j in a_dictionary.items():
+            if i == max_score:
+                return j
