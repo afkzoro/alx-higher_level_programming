@@ -1,3 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    return [[number ** 2 for number in group] for group in list]
+    new_list = []
+    if len(matrix) != 0:
+        for i in matrix[:]:
+            new_list.append(list(map(lambda x: x ** 2, i)))
+    return new_list
