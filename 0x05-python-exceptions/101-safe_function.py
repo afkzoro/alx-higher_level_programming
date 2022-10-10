@@ -11,3 +11,4 @@ def safe_function(fct, *args):
     except ZeroDivisionError:
         safe = None
         sys.stderr.write("Exception: division by zero\n")
+    return safe
