@@ -55,14 +55,3 @@ class Square:
             _type_: _description_
         """
         return self.__size ** 2
-
-    def my_print(self):
-        if self.__size == 0:
-            sys.stdout.write("")
-            return None
-
-        for i in range(1, self.area() + 1):
-            print('#', end='')
-
-            if i % self.__size == 0 and i > 0:
-                print()
