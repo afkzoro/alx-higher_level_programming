@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import sys
 """_summary_
 
     Raises:
@@ -63,11 +62,10 @@ class Square:
             _type_: _description_
         """
         if self.__size == 0:
-            sys.stdout.write("")
+            print("")
             return None
 
-        for i in range(1, self.area() + 1):
-            print('#', end='')
-
+        for i in range(1, self.area() + 1, 1):
+            print('#', end="")
             if i % self.__size == 0 and i > 0:
                 print("")
