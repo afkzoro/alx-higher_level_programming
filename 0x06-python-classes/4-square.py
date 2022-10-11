@@ -1,4 +1,17 @@
 #!/usr/bin/python3
+"""_summary_
+
+    Raises:
+        TypeError: _description_
+        ValueError: _description_
+        TypeError: _description_
+        ValueError: _description_
+
+    Returns:
+        _type_: _description_
+    """
+
+
 class Square:
     """_summary_
     """
