@@ -1,3 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+""" Square Class"""
+
+
 class Square():
     pass
