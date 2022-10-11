@@ -40,6 +40,11 @@ class Square:
 
     @property
     def size(self):
+        """_summary_
+
+        Returns:
+            _type_: _description_
+        """
         return self.__size
 
     @size.setter
