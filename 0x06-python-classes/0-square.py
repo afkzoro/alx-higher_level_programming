@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-""" Square Class"""
+""" Square Class
+
+A sqaure class
+
+"""
 
 
-class Square():
+class Square:
     pass
