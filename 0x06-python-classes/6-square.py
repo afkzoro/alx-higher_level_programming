@@ -12,10 +12,6 @@
     """
 
 
-from multiprocessing.sharedctypes import Value
-from turtle import position
-
-
 class Square:
     """_summary_
     """
