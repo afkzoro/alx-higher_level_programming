@@ -57,6 +57,11 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
+        """_summary_
+
+        Returns:
+            _type_: _description_
+        """
         if self.__size == 0:
             sys.stdout.write("")
             return None
