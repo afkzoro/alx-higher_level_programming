@@ -153,17 +153,15 @@ class Rectangle:
         Returns:
             _type_: _description_
         """
-        print_str = ""
-        if self.__height == 0 or self.__width == 0:
-            return " "
+        if self.__width == 0 or self.__height == 0:
+            return ("")
+
+        rect = []
         for i in range(self.__height):
-            for j in range(self.__width):
-                print_str += "#"
-
+            [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
-                print_str += "\n"
-
-        return print_str
+                rect.append("\n")
+        return ("".join(rect))
 
     def __repr__(self):
         """_summary_
