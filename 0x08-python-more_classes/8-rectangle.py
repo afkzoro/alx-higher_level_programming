@@ -170,7 +170,6 @@ class Rectangle:
         Returns:
             _type_: _description_
         """
-        wid = str(eval('self.width'))
-        hei = str(eval('self.height'))
-
-        return 'Rectangle(' + wid + ', ' + hei + ')'
+        rect = "Rectangle(" + str(self.__width)
+        rect += ", " + str(self.__height) + ")"
+        return (rect)
