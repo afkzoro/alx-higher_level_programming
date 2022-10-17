@@ -24,6 +24,7 @@ class Rectangle:
     Returns:
         _type_: _description_
     """
+
     number_of_instances = 0
     print_symbol = "#"
 
@@ -138,6 +139,7 @@ class Rectangle:
         Returns:
             _type_: _description_
         """
-        rect = "Rectangle(" + str(self.__width)
-        rect += ", " + str(self.__height) + ")"
-        return (rect)
+        wid = str(eval('self.width'))
+        hei = str(eval('self.height'))
+
+        return 'Rectangle(' + wid + ', ' + hei + ')'
