@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import numpy as np
-"""
-Using the numpy library
+"""_summary_
     """
 
 
