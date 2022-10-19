@@ -6,5 +6,13 @@ Using the numpy library
 
 
 def lazy_matrix_mul(m_a, m_b):
-    """ Multiply two matrices (m_a) and (m_b) using a numpy method """
+    """_summary_
+
+    Args:
+        m_a (_type_): _description_
+        m_b (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     return (np.matmul(m_a, m_b))
