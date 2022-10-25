@@ -17,3 +17,8 @@ class Student:
                 all(type(i) == str for i in attrs)):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
         return self.__dict__
+
+    def reload_from_json(self, json):
+        """ Changes attribtes of the Student class """
+        for i, j in json.items():
+            setattr(self, i, j)
