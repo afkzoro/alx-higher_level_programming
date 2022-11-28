@@ -4,7 +4,7 @@ This repository stores my solutions to the amazing high-level programming projec
 ---
 
 <p align="center">
-<a target="_blank" href="https://alx-intranet.hbtn.io/"><img src=""></a>
+<a target="_blank" href="https://alx-intranet.hbtn.io/"><img src="https://github.com/afkzoro/alx-higher_level_programming/blob/main/alx.jpeg"></a>
 </p>
 
 ---
