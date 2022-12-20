@@ -6,3 +6,6 @@
 0x04-python-more_data_structures/__pycache__/print_sorted_dictionary.cpython-38.pyc
 environ
 0x0A-python-inheritance/__pycache__/7-base_geometry.cpython-38.pyc
+node_modules
+package-lock.json
+package.json
